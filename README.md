@@ -1,6 +1,6 @@
 # forte
 
-A stack-based, forth-like, esoteric programming language, read about [Forth](https://en.wikipedia.org/wiki/Forth_(programming_language)) on Wikipedia.
+A stack-based, forth-like, esoteric programming language, read about [Forth](https://en.wikipedia.org/wiki/Forth_(programming_language)) on Wikipedia.  
 Inspired by [BrainFart](https://github.com/daddinuz/brainfart), a BrainFuck interpreter.
 
 ### Instructions

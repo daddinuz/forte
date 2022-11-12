@@ -38,7 +38,7 @@ Inspired by [BrainFart](https://github.com/daddinuz/brainfart), a BrainFuck inte
 
 ### Implementation details
 
-Only ASCII-encoding is supported, every character not listed in opcodes is ignored and will be treated as a comment.
+Every character not listed in opcodes is ignored and will be treated as a comment.
 
 - number literal
   
@@ -75,10 +75,10 @@ Only ASCII-encoding is supported, every character not listed in opcodes is ignor
   
   In forte a function is identified by a number.
   
-  `{` will pop the value on top of the stack for identifing the function later
+  `{` will pop the value on top of the stack and that value is used for identifing the function.
   
   In order to call a function a similar operation is done:
-  `@` will pop the top of the stack to determine function to call.
+  `@` will pop the top of the stack to determine the function to call.
   
   ```
   0{
